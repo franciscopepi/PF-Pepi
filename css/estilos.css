@@ -1,0 +1,104 @@
+.encabezado {
+  background-color: #ffb900;
+  margin-bottom: 50px;
+}
+
+.logo {
+  width: 150px;
+}
+
+.menuNav a {
+  text-transform: uppercase;
+  font-size: 1.5rem;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  border-right: 1px solid rgb(255, 66, 33);
+  border-left: 1px solid rgb(255, 66, 33);
+  transition: all 0.8s;
+}
+.menuNav a:hover {
+  background-color: #b98f1b;
+  color: rgb(255, 66, 33);
+}
+
+.expHavanna {
+  display: grid;
+}
+.expHavanna h2 {
+  font-size: 3rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #ffb900;
+  margin-top: 20px;
+}
+.expHavanna h3 {
+  font-size: 2rem;
+  font-weight: 100;
+  text-transform: uppercase;
+  color: #f7cd5a;
+}
+
+.padreGrid {
+  display: grid;
+}
+
+.productosGrid {
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+}
+
+.subtituloProductos h2 {
+  font-size: 3rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #ffb900;
+  margin-top: 20px;
+  text-align: center;
+}
+.subtituloProductos h3 {
+  font-size: 2rem;
+  font-weight: 100;
+  text-transform: uppercase;
+  color: #f7cd5a;
+  text-align: center;
+}
+
+.footDiv {
+  margin-top: 50px;
+}
+
+footer {
+  margin-top: 1px solid;
+}
+
+.formhav {
+  background-color: #ffb900;
+  margin-bottom: 50px;
+  margin-left: 350px;
+  text-transform: uppercase;
+  font-size: 1.5rem;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  border-right: 1px solid rgb(255, 66, 33);
+  border-left: 1px solid rgb(255, 66, 33);
+  display: inline-block;
+  text-align: center;
+}
+
+.logocoms {
+  text-align: center;
+}
+
+.alic {
+  text-align: center;
+}
+
+.marg {
+  margin-bottom: 50px;
+}
+
+a {
+  text-decoration: none;
+  font-weight: bold;
+  color: black;
+}
+
+/*# sourceMappingURL=estilos.css.map */
