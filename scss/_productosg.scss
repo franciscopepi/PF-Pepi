@@ -1,0 +1,37 @@
+.subtituloProductos {
+  h2 {
+    font-size: 2vw;
+    font-weight: 100;
+    font-family: $font-family_2;
+    color: $color_5;
+    text-align: center;
+  }
+
+  h1 {
+    font-size: 2vw;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: $color_3;
+    margin-top: 20px;
+    text-align: center;
+  }
+
+  p {
+    font-family: $font-family_4;
+    color: $color_8;
+    font-family: $font-family_2;
+  }
+
+  background-color: $background-color_1;
+  text-align: center;
+  margin-top: 50px;
+}
+
+.padreGrid {
+  display: grid;
+}
+
+.productosGrid {
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+}

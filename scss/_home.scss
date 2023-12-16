@@ -1,0 +1,18 @@
+.carrcl {
+    width: 47.5vw;
+    height: auto;
+
+    img {
+        transition: 0.8s;
+    }
+}
+
+.cartas {
+    &:hover {
+        content: "";
+        background-color: $background-color_4;
+        opacity: 0.5;
+        transition: opacity 0.35s;
+        cursor: pointer;
+    }
+}

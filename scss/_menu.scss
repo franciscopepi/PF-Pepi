@@ -1,0 +1,18 @@
+.menuNav {
+  a {
+    text-transform: uppercase;
+    font-size: 16px;
+    font-family: $font-family_1;
+    border-top: 1px solid #ad6d29;
+    border-bottom: 1px solid #ad6d29;
+    transition: all 0.8s;
+    color: $color_1;
+    position: relative;
+    display: block;
+
+    &:hover {
+      background-color: $background-color_2;
+      color: $color_2;
+    }
+  }
+}

@@ -1,0 +1,62 @@
+body {
+  position: relative;
+  width: 100%;
+  height: 345px;
+  background-color: $background-color_1;
+  border-bottom: 8px solid #e2b502;
+}
+
+main {
+  background-image: url(../img/back.png);
+}
+
+.expHavanna {
+  h2 {
+    font-size: 4vw;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: $color_3;
+  }
+
+  h3 {
+    font-size: 3.5vw;
+    font-weight: 100;
+    text-transform: uppercase;
+    color: $color_4;
+  }
+}
+
+.localesm {
+  background-color: $background-color_3;
+  max-width: 767px;
+
+  h1 {
+    font-size: 2vw;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: $color_3;
+    text-align: center;
+  }
+
+  h2 {
+    font-size: 2vw;
+    font-weight: 100;
+    font-family: $font-family_2;
+    color: $color_5;
+    text-align: center;
+  }
+
+  p {
+    font-family: $font-family_1;
+    color: $color_6;
+    text-align: justify;
+    font-size: 1vw;
+  }
+
+  label {
+    font-size: 1vw;
+    width: 100%;
+    color: $color_7;
+    font-family: $font-family_3;
+  }
+}
